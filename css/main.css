@@ -1,42 +1,43 @@
 /***** BASE STYLES *****/
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-      color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+      color: #7f7f7f;
 }
 
-#about, #work, #contact {
+#about, #portfolio, #contact {
     height: 600px;
 }
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
+    width: 1500px;
     margin: 0 auto;
 }
 
 .half-width {
-    width: 600px;
+    width: 750px;
     float: left;
 }
 
 .third-width {
-    width: 400px;
+    width: 500px;
     float: left;
 }
 
 /***** HEADER *****/
 header {
     height: 800px;
-    background: url('../img/hero.png');
+    background: url('../img/cactus.jpg');
     background-size: cover;
 }
 
 header h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    color: #bbc085;
+    color: #EF946C;
     padding: 65px 0 65px 25px;
+    letter-spacing: 5px;
 }
 
 nav {
@@ -59,15 +60,16 @@ nav ul li a {
 header h2 {
     width: 1000px;
     clear: both;
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 72px;
     line-height: 80px;
-    color: #9b9b9b;
+    letter-spacing: 5px;
+    color: #CEB0A7;
     padding: 20px 0 20px 25px;
 }
 
 header h2 span {
-  color: #2b2b2b;
+  color: #DFA28A;
 }
 
 /***** ABOUT *****/
@@ -76,74 +78,79 @@ header h2 span {
 }
 
 #about h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 36px;
     padding-left: 50px;
+    letter-spacing: 5px;
 }
 
 #about p {
     font-size: 21px;
     color: #7f7f7f;
-    line-height: 40px;
+    line-height: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-/***** WORK *****/
-#work {
-    background: #f9ceb7;
+/***** PORTFOLIO *****/
+#portfolio {
+    background: #D6E1E8;
     text-align: center;
+    height: 650px;
 }
 
-#work .full-width {
-    padding: 115px 0;
+#portfolio .full-width {
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
-#work img {
-    padding-bottom: 30px;
+#portfolio img {
+    width: 450px;
+    border: 2px solid #ffffff;
 }
 
-#work h3 {
-    font-size: 24px;
-    line-height: 32px;
+#portfolio h3 {
+    font-size: 20px;
+    line-height: 25px;
     width: 190px;
     margin: 0 auto;
+    color: #EF946C;
+    text-decoration: underline #7f7f7f;
 }
 
-#work p {
-    font-family: 'Lora', serif;
+#portfolio p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     padding: 0 45px;
 }
 
 /***** CONTACT *****/
 
 #contact {
-    background-color: #ebebeb;
+    background-color: #E8E8E8;
 }
 
 #contact .full-width {
-    padding: 110px 0;
+    padding: 60px 0;
 }
 
 #contact img#contact-img {
-    margin-left: 25px;
+    margin-left: 150px;
     border: 12px solid #ffffff;
+    width: 450px;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul, p {
     padding-left: 115px;
 }
 
-#contact #envelope {
-    padding: 0 10px 0 115px;
-}
-
-#contact h2 {
-    font-family: 'Lora', serif;
+#contact h2, #contact #socialmedia-header {
+    font-family: 'Oswald', serif;
+    color: #CEB0A7;
     font-size: 36px;
     line-height: 44px;
+    letter-spacing: 5px;
 }
 
 #contact #email-header {
@@ -151,17 +158,15 @@ header h2 span {
     font-weight: 400;
     line-height: 44px;
     margin: -30px 0 5px 0;
+    color: #DFA28A;
 }
 
 #contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 44px;
-    margin: 40px 0 0 0;
+    color: #7f7f7f;
 }
 
 #contact a {
-    color: #c49075;
+    color: #EF946C;
     font-weight: bold;
     font-size: 28px;
 }
@@ -176,5 +181,7 @@ header h2 span {
 
 #contact ul img {
     font-size: 32px;
-    padding-right: 48px;
+    padding-right: 25px;
+    width: 50px;
+    margin-top: -20px;
 }
